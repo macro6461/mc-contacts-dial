@@ -1,0 +1,139 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #04e7e7, #3d5afe, #251285);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p{
+    text-align: center;
+}
+
+h3{
+    margin: 5px 0;
+}
+
+p{
+    font-size: 10px;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    box-shadow: 0px 0px 5px -1px #D3D3D3;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 0;
+}
+
+.contacts{
+    box-shadow: none;
+    height: 220px;
+    background-color: white;
+    overflow: auto;
+    color: black;
+}
+
+.contacts p {
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.contacts span{
+    color: #D3D3D3;
+}
+
+.customRow{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.customCol{
+    border: solid 1px white;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.customCol:last-child,
+.customCol:nth-last-child(2),
+.customCol:nth-last-child(3) {
+    border-top: 0;
+    border-right:0;
+}
+
+.customRow:last-child div{
+    border-bottom: 0; 
+ }
+
+ .contacts .card-body, .contacts .card-body div{
+     padding:10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .contacts .card-body{
+    border-bottom: solid 1px #ededed;
+ }
+
+ .contacts .customCol {
+     height: auto;
+     padding: 0 15px;
+ }
+
+ .prof {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
+
+.jumbotron{
+    padding: 25px 0;
+    margin-bottom: 0;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+.number{
+    height: 100px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.number > img{
+    position: absolute;
+    right: 25px;
+    top: 40px;
+    width: 25px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.toggle{
+    width: 30px !important;
+    height: 10px !important;
+    border-radius: 50px;
+}
+
+.toggle-handle{
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: -5px;
+}
+
+.customCol img{
+    width: 20px;
+}

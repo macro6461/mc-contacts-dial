@@ -1,0 +1,17 @@
+{"contacts":[
+    {"name": "Angie", "number": "862-847-9392", "img": "Angie.jpg"},
+    {"name": "Beatrice", "number": "917-832-4720", "img": "Beatrice.jpg"},
+    {"name": "Candice", "number": "862-485-3750", "img": "Candice.jpg" },
+    {"name": "Carl", "number": "804-374-2719", "img": "Carl.jpg" },
+    {"name": "Dave", "number": "862-124-0412", "img": "Dave.jpg" },
+    {"name": "Eugene", "number": "862-193-4852", "img": "Eugene.jpg" },
+    {"name": "Francis", "number":"862-563-8282:", "img": "Francis.jpg" },
+    {"name": "Lancelot", "number": "862-910-3456", "img": "Lancelot.jpg" },
+    {"name": "Romeo", "number": "726-665-2928", "img": "Romeo.jpg" },
+    {"name": "Tobias", "number": "917-485-1938", "img": "Tobias.jpg" },
+    {"name": "Toby", "number": "293-294-2947", "img": "Toby.jpg" },
+    {"name": "Tony", "number": "862-345-6789", "img": "Tony.jpg" },
+    {"name": "Uncle Mike", "number": "212-395-4957", "img": "UncleMike.jpg"},
+    {"name": "Zelda", "number": "234-987-6547", "img": "Zelda.jpg" },
+    {"name": "Ziggy", "number": "234-765-2323", "img": "Ziggy.jpg" }
+]}

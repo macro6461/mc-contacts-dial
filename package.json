@@ -1,0 +1,12 @@
+{
+    "name": "matt_croak_contacts_code_challenge",
+    "description": "Matthew Croak submission for contacts dial code challenge.",
+    "version": "1.0.0",
+    "repository": {},
+    "dependencies": {
+        "cors": "2.8.5",
+        "express": "4.17.1"
+    },
+    "author": "matthew croak",
+    "license": "MIT"
+}
